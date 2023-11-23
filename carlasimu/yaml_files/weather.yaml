@@ -1,0 +1,18 @@
+sitting:
+  sun_azimuth_angle:  300.000000
+  sun_altitude_angle:  45.000000
+  cloudiness:  20.000000
+  precipitation:  0.000000
+  precipitation_deposits: 0.000000
+  wind_intensity:  10.000000
+  fog_density:  2.000000
+  fog_distance: 0.750000
+  fog_falloff: 0.100000
+  wetness:  0
+  scattering_intensity:  1
+  mie_scattering_scale:  0.030000
+  rayleigh_scattering_scale:  0.033100
+  dust_storm: 0.000000
+    
+
+

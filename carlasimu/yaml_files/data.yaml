@@ -1,0 +1,57 @@
+sitting:
+  host: '127.0.0.1'
+  port: 2000
+  tm_port: 8000
+  asynch: False
+  hybrid: True
+  no_rendering: False
+  synchronous: True     # False, synchronous mode will not running (True is recommended) 
+  apply_settings: True #"True" is selected, the environment movement speed increases. 
+                          #This could be beneficial in certain scenarios, such as testing the performance of an algorithm or system under accelerated conditions.
+                      #"False" is selected, the environment's movement matches real-world speed more accurately.
+                          # This setting would likely make the simulation more realistic, which is useful for testing and observing behaviors or responses in conditions that closely mimic reality.
+  
+
+#traffic:
+  safe: True
+  filterv: 'vehicle.*'
+  filterw: 'walker.pedestrian.*' # Filter pedestrian type (default: "walker.pedestrian.*")
+  number_of_wheels: '4' # '2','4' or 'All'  number of wheels 
+
+  generationv: 'All' # restrict to certain vehicle generation (values: "1","2","All" - default: "All")
+  generationw: 'All'
+  number_of_vehicles: 150
+  number_of_walkers:
+    stand: 0 #10
+    walk: 0 #30
+    run: 0 #10
+  
+  car_lights_on: False # Enable automatic car light management, 
+  hero: True # Set one of the vehicles as hero
+  respawn: True # Automatically respawn dormant vehicles (only in large maps)
+  global_distance_to_leading_vehicle : 2.5
+  physics_mode: True
+  physics_radius: 70.0
+  
+  light_state:  # light state of the vehicles, default is False,for each light state is True, will be turned on
+    'ALL': False
+    'Position': False
+    'LowBeam': False
+    "HighBeam": False
+    "Brake": False
+    "RightBlinker": False
+    "LeftBlinker": False
+    "Reverse": False
+    'Fog': True
+    "Interior": False
+    "Special1": False # This is reserved for certain vehicles that can have special lights, like a siren.
+    "Special2": False # This is reserved for certain vehicles that can have special lights, like a siren.
+    
+
+
+#parameters:
+  seed:
+  seedw: 0 # Set the seed for pedestrians module
+  set_timeout: 15.0
+  wait_for_tick: 10
+  fixed_delta_seconds: 0.05

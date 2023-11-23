@@ -1,0 +1,10 @@
+sitting: 
+  car: [142, 0, 0]
+  truck: [142, 0, 0]
+  bus: [100,60,0]
+  van: [70,0,0]
+  bicycle: [32,11,119]
+  motorcycle: [230,0,0]
+  walker: [60, 20, 220]
+  street_light: [30,170,250]
+

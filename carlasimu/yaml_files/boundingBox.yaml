@@ -5,22 +5,22 @@ sitting:
     save_dir: 'out\cam' # directory to save the files
     bbox_dir: 'out\bbox'
     path_save: 'box' # the path to save the image data
-    3D: False # if false the bounding box will be 2D
+    3D: False # If false the bounding box will be 2D
     
-    figure_in_window: True     # true mean to show the vehicle during its driving in window
+    figure_in_window: True     # true means to show the vehicle during its driving in the window
     filter: True # filter blocked objects
     max_distance: 50
     min_distance: 1
     actors:   # labling in bounding box 
-      vehicles: True # if false the cam will ignore to labeling vehicles in bounding box 
-      walkers: True ## if false the cam will ignore to labeling walkers in bounding box 
+      vehicles: True # if false the cam will ignore labeling vehicles in the bounding box 
+      walkers: True ## If false the cam will ignore labeling walkers in the bounding box 
 
     num_image: 1000
 
   image_segmentation:
     save_to_file: True # if False will not save any image data
     save_dir: 'out\seg' # the path to save the image data
-    figure_in_window: False # true mean to show the vehicle during its driving in window
+    figure_in_window: False # true means to show the vehicle during its driving in the window
 
   radar_sensor:
     save_to_file: False
@@ -40,8 +40,8 @@ sitting:
 
   fiter_boundinbox: True
   threshold_small_box: 10 # the threshold of the filter for small boxes, the value between [0,100] 
-  size_big_box: 70 # the threshold present of the area of the box comparing with the size of image, 
-                   # if it is above this value, we will consider it a big box, the value between [0,100]
+  size_big_box: 70 # the threshold present of the area of the box compared with the size of the image, 
+                   # If it is above this value, we will consider it a big box, the value between [0,100]
   threshold_big_box: 50 # the threshold of the filter for big boxes, the value between [0,100] 
   time_screen_shot: 1 #  the unit in seconds to save the screenshot of 
 

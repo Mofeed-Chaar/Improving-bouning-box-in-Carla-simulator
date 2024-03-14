@@ -254,7 +254,7 @@ class CarlaEnvironment(object):
 
 
 	def set_mapLayer(self):
-		if not self.mapLayer.buliding:
+		if not self.mapLayer.building:
 			self.world.unload_map_layer(carla.MapLayer.Buildings)
 		if not self.mapLayer.ParkedVehicles:
 			self.world.unload_map_layer(carla.MapLayer.ParkedVehicles)

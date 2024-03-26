@@ -28,10 +28,6 @@ client = env.client
 world = env.world
 carla = env.carla
 manager = CarlaManager(env)
-cc_depth_log= None
-world = env.world
-client = env.client
-carla = env.carla
 weather=manager.weather()
 weather.set_weather()
 

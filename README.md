@@ -6,17 +6,17 @@ In this readme file, we will explain the first work (Improving bounding box in C
 ## citation
 If you use this dataset or our implementation in your research, please cite this publication:</br>
 `@conference{vehits24,</br>
-author={Mohamad Chaar. and Jamal Raiyn. and Galia Weidl.},</br>
-title={Improve Bounding Box in Carla Simulator},</br>
-booktitle={Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems - VEHITS},</br>
-year={2024},</br>
-pages={267-275},</br>
-publisher={SciTePress},</br>
-organization={INSTICC},</br>
-doi={10.5220/0012600500003702},</br>
-isbn={978-989-758-703-0},</br>
-issn={2184-495X},</br>
-}</br>`
+author={Mohamad Chaar. and Jamal Raiyn. and Galia Weidl.},`</br>
+`title={Improve Bounding Box in Carla Simulator},`</br>
+`booktitle={Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems - VEHITS},`</br>
+`year={2024},`</br>
+`pages={267-275},`</br>
+`publisher={SciTePress},`</br>
+`organization={INSTICC},`</br>
+`doi={10.5220/0012600500003702},`</br>
+`isbn={978-989-758-703-0},`</br>
+`issn={2184-495X},`</br>
+`}`</br>`
 ## Folder Constructions
 📦root<br>
  ┣ 📂carlasimu --> contains the tools to generate datasets. <br>

@@ -5,7 +5,7 @@ This work is divided into two main works </br>
 In this readme file, we will explain the first work (Improving bounding box in Carla simulator) besides the explanation of the second work.</br> 
 ## citation
 
-If you use this dataset or our implementation in your research, please cite this publication:</br>
+If you use this dataset or our implementation in this project, please cite this publication:</br>
 ```
 @conference{vehits24,
 author={Mohamad Chaar. and Jamal Raiyn. and Galia Weidl.},

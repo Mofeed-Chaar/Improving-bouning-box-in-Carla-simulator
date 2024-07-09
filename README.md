@@ -3,6 +3,22 @@ This work is divided into two main works </br>
 **-Improving bounding box in Carla simulator**</br>
 **-Improving Carla simulator tools to generate flexible environments using YAML files**.</br>
 In this readme file, we will explain the first work (Improving bounding box in Carla simulator) besides the explanation of the second work.</br> 
+## citation
+If you use this dataset or our implementation in your research, please cite this publication:
+'
+@conference{vehits24,
+author={Mohamad Chaar. and Jamal Raiyn. and Galia Weidl.},
+title={Improve Bounding Box in Carla Simulator},
+booktitle={Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems - VEHITS},
+year={2024},
+pages={267-275},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0012600500003702},
+isbn={978-989-758-703-0},
+issn={2184-495X},
+}
+'
 ## Folder Constructions
 📦root<br>
  ┣ 📂carlasimu --> contains the tools to generate datasets. <br>

@@ -319,7 +319,8 @@ int: Default is 70: This value determines whether a box is considered "big." Box
 int: Default is 50: The default threshold for vehicle detection is set to 50%.<br>
 This means that if at least 50% of the pixels within a designated  **big box** contain information about a vehicle, the system will consider it a valid detection and not filter it out.<br>
 <strong>- time_screen_shot</strong><br>
-int: Default is 1: The default data saving interval is set to 1 second. This means that an image is captured and saved to the data set every second.<br>
+int: Default is 1: The default data saving interval is set to 1 second. This means that an image is captured and saved to the data set every second.<be>
+
 ### color_segmentation.yaml
 The color according to image segmentation of the Carla sittings (do not change it).<br>
 ### mapLayer.yaml
